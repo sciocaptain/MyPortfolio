@@ -1,15 +1,11 @@
 import React from "react";
-import Header from "./Header";
-import IntroPage from "./IntroPage";
-import ProjectPage from "./ProjectPage";
+import MainPage from "./MainPage";
 import ParticleBackground from "../ParticleBackground";
 
 function App() {
   return (
     <div>
-      <Header />
-      <IntroPage />
-      <ProjectPage />
+      <MainPage />
       <ParticleBackground />
     </div>
   );

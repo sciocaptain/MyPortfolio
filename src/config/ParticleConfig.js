@@ -8,7 +8,7 @@ const particlesConfig = {
       }
     },
     color: {
-      value: "#96c3d2"
+      value: "#fff"
     },
     shape: {
       type: "circle",
@@ -48,7 +48,7 @@ const particlesConfig = {
     line_linked: {
       enable: true,
       distance: 150,
-      color: "#96c3d2",
+      color: "#fff",
       opacity: 0.4,
       width: 1
     },
@@ -71,7 +71,7 @@ const particlesConfig = {
     detect_on: "canvas",
     events: {
       onhover: {
-        enable: false,
+        enable: true,
         mode: "repulse"
       },
       onclick: {
@@ -89,14 +89,14 @@ const particlesConfig = {
       },
       bubble: {
         distance: 400,
-        size: 40,
+        size: 80,
         duration: 2,
-        opacity: 8,
+        opacity: 100,
         speed: 3
       },
       repulse: {
-        distance: 200,
-        duration: 0.4
+        distance: 50,
+        duration: 2
       },
       push: {
         particles_nb: 4
