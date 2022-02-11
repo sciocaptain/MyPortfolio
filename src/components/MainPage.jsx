@@ -23,9 +23,9 @@ function MainPage(){
         </a>
       </div>
       <div id="content3">
-        <a href="">
+        <a href="https://github.com/sciocaptain/ISS-Tracker">
           <div className = "category-div-top">
-            <p>REACT JS NOTES APPLICATION</p>
+            <p>REACT JS ISS TRACKER</p>
           </div>
         </a>
       </div>
@@ -44,7 +44,7 @@ function MainPage(){
         </a>
       </div>
       <div id="content6">
-        <a href="">
+        <a href="https://stonybrook.joinhandshake.com/stu/users/33208448">
           <div className = "category-div-bottom">
             <p>HANDSHAKE</p>
           </div>
